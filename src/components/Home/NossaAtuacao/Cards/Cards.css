@@ -1,0 +1,53 @@
+.cards {
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cards-itens {
+    margin: 10px;
+    width: 380px;
+    height: 315px;
+    background-color: #1D252D;
+    border-radius: 20px;
+}
+
+.cards-itens .wrapper {
+    display: flex;
+    margin-top: 30px;
+    min-height: 230px;
+}
+
+.cards-itens .wrapper i{
+    color: #F2CD00;;
+    margin: 0px 20px 30px 30px;
+    font-size: 32px;
+}
+
+.cards-itens .wrapper h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cards-itens .wrapper p{
+    color: white;
+    width: 245px;
+    line-height: 1.5;
+}
+
+.cards-itens a{
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #F2CD00;;
+    background-color: #00000000;
+    border-radius: 0px 0px 0px 0px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.cards-itens i {
+    font-size: 13px;
+    margin-right: 9px;
+}

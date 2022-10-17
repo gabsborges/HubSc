@@ -1,0 +1,39 @@
+.sobreGrafico {
+    margin: 0 auto;
+    width: 75%;
+
+}
+
+.sobre-grafico {
+    display: flex;
+}
+
+.sobre-grafico img {
+    width: 570px;
+    height: auto;
+    padding-top: 60px;
+    margin-right: 20px;
+    position: relative;}
+
+.sobre-grafico-box {
+    padding: 80px 0 100px 0;
+}
+
+.sobre-grafico-box h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.sobre-grafico-box-texto {
+    padding-top: 40px;
+}
+
+.sobre-grafico-box-texto strong{
+    color: #ff6900;
+}
+
+.sobre-grafico-box-texto p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}

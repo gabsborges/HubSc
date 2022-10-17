@@ -1,0 +1,35 @@
+.bpoBps {
+    background-image: url('/public/HUB_BANNER_SERVIÇOS_2-1.png');
+    background-size: 130%;
+    margin-bottom: 50px;
+}
+
+.bpoBps-box {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.bpoBps-texto {
+    width: 550px;
+}
+
+.bpoBps-texto h1 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.bpoBps-texto p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #87868A;
+}
+
+.bpoBps img {
+    width: 600px;
+    height: 500px;
+
+}

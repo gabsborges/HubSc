@@ -1,0 +1,91 @@
+.cardsBpo {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.cardsBpo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardsBpo-card {
+    background-color: #F0F0F0;
+    padding: 30px;
+    width: 375px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.cardsBpo-card h1 {
+    text-align: left;
+    color: #252930;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cardsBpo-card ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsBpo-card li {
+    color: #87868A;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cardsBpo-card img {
+    padding: 10px;
+    width: 45px;
+}
+
+.cardsBpo-maior {
+    background-color: #F0F0F0;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 5px;
+    display: flex;
+    margin-bottom: 240px;
+}
+
+.cardsBpo-maior ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cardsBpo-maior li {
+    color: #87868A;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cardsBpo-maior img {
+    padding: 10px;
+    width: 45px;
+}
+
+.cardsBpo-maior-card {
+    display: flex;
+}
+
+.cardsBpo-maior-sec {
+    display: flex;
+    flex-direction: row;
+    width: 510px;
+}
+
+.cardsBpo-maior-sec h1{
+    text-align: left;
+    color: #252930;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cardsBpo-maior-sec .space{
+    height: 25px;
+}

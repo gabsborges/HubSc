@@ -1,0 +1,59 @@
+.objetivos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-image: url('/public/hub-banner-home2.png');
+    background-position: -128px -8px;
+    background-position: -49px 2px;
+    background-size: 112%;
+    height: 315px;
+}
+
+.objetivos-texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.objetivos-texto h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    width: 530px;
+}
+
+.objetivos-texto span {
+    color: #F2CD00;
+}
+
+.objetivos-texto a{
+    width: 235px;
+    font-size: 16px;
+    font-weight: 800;
+    fill: #1D252D;
+    color: #1D252D;
+    background-color: #F2CD00;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #1D252D;
+    border-radius: 50px 50px 50px 50px;
+    padding: 7px 20px 7px 20px;
+    text-decoration: none;
+    transition: ease-in 200ms;
+}
+
+.objetivos-texto a:hover{
+    transform: scale(0.9);
+    color: white;
+}
+
+.objetivos-img {
+    width: 450px;
+    height: 500px;
+}
+
+.objetivos-img img{
+    width: 510px;
+    height: auto;
+    object-position: -95px -14px;
+}

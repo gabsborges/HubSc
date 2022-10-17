@@ -1,0 +1,67 @@
+.acessibilidade-footer {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #87868A;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.footer-menu-empresas {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-menu-empresas img:first-child{
+    margin-right: 20px;
+}
+
+.footer-menu-itens .menu {
+    padding: 0;
+}
+
+.footer-redes-e-contatos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-dados {
+    display: flex;
+}
+
+.footer-dados i {
+    color: #F2CD00;
+    font-size: 15px;
+    margin-right: 18px;
+}
+
+.footer-dados p {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    align-items: center;
+    margin: 0 0 3px 0;
+}
+
+.footer-dados-endereco {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-dados-icones i {
+    color: #F2CD00;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.footer-copyright p{
+    margin-top: 90px;
+    color: #87868A;
+    font-size: 12px;
+    font-weight: 400;
+}

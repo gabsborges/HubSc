@@ -1,0 +1,95 @@
+.orcamento {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    padding: 120px 0 150px 0;
+}
+
+.orcamento-box {
+    width: 570;
+}
+
+.orcamento-box-texto h1{
+    font-size: 36px;
+    font-weight: 800;
+    width: 570px;
+    padding-bottom: 20px;
+}
+
+.orcamento-box-texto p {
+    margin-bottom: 0.9rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #87868A;
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.orcamento-box-dados {
+    display: flex;
+    flex-direction: column;
+}
+
+.orcamento-box-dados i {
+    color: #FF6900;
+    font-size: 22px;
+    margin-right: 18px;
+}
+
+.orcamento-box-dados p {
+    font-size: 18px;
+    color: #87868A;
+    font-weight: 400;
+    align-items: center;
+    margin: 0 0 3px 0;
+}
+
+.orcamento-box-dados-endereco {
+    margin-right: 50px;
+    display: flex;
+}
+
+.orcamento-form-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.orcamento-form-area label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+
+.orcamento-form-area input {
+    border-radius: 20px;
+    font-weight: 500;
+    margin-top: 0px;
+    border-left: 0px;
+    border: 0;
+    border-bottom: 1px solid #666;
+    margin-bottom: 2%;
+    background: none;
+    padding: 10px 20px 10px 10px;
+}
+
+.orcamento-form-area-checkbox {
+    display: flex;
+}
+
+.orcamento-form-area-checkbox input {
+    width: 45px;
+    margin: 15px;
+}
+
+.orcamento-form-area-submit input{
+    padding: 10px 40px;
+    margin: 15px 0 5px;
+    background-color: rgba(242, 205, 0, 1);
+    border-color: rgba(242, 205, 0, 1);
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1rem;
+}

@@ -1,0 +1,34 @@
+.consultoria {
+    background-image: url('/public/HUB_BANNER_SERVIÇOS_2-1.png');
+}
+
+.consultoria-container {
+    padding-bottom: 40px;
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.consultoria-texto {
+    width: 550px;
+}
+
+.consultoria-texto h1 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.consultoria-texto p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #87868A;
+}
+
+.consultoria img {
+    width: 648px;
+    height: 483px;
+
+}

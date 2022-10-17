@@ -1,0 +1,64 @@
+.trabalheConosco {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.trabalheConosco-area {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.trabalheConosco-area img {
+    width: 600px;
+}
+
+.trabalheConosco-texto {
+    margin: 50px 0;
+}
+
+.trabalheConosco-texto h1 {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.trabalheConosco-texto p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #87868A;
+    margin-bottom: 20px;
+}
+
+.trabalheConosco-texto span {
+    font-weight: bolder ;
+    color: #ff6900;
+    padding-bottom: 20px;
+}
+
+.trabalheConosco-texto strong {
+    font-weight: bolder ;
+    font-size: 25px;
+    color: #252930;
+}
+
+.trabalheConosco-texto a {
+    padding-top: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    fill: #FF6900;
+    color: #FF6900;
+    background-color: #00000000;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FF6900;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+    transition: ease-in 200ms;
+}
+
+.trabalheConosco-texto a:hover {
+    background-color: #FF6900;
+    color: white;
+}

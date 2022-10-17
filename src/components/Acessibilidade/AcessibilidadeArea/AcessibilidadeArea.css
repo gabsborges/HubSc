@@ -1,0 +1,25 @@
+.acessibilidadeArea {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.acessibilidadeArea-area {
+    margin: 100px 0;
+}
+
+.acessibilidadeArea-texto h1 {
+    color: #1D252D;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.acessibilidadeArea-texto p {
+    color: #87868A;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+}
+
+.acessibilidadeArea-texto ul {
+    list-style: none;
+}

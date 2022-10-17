@@ -1,0 +1,38 @@
+.sobreSobre {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.sobre-sobre {
+    display: flex;
+}
+
+.sobre-sobre img {
+    width: 570px;
+    height: auto;
+    padding-top: 60px;
+    margin-right: 20px;
+}
+
+.sobre-sobre-box {
+    padding: 80px 0 100px 0;
+}
+
+.sobre-sobre-box h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.sobre-sobre-box-texto {
+    padding-top: 40px;
+}
+
+.sobre-sobre-box-texto strong{
+    color: #ff6900;
+}
+
+.sobre-sobre-box-texto p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #87868A;
+}

@@ -1,0 +1,186 @@
+.oqueFazemos {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.oqueFazemos-box-texto {
+    display: flex;
+}
+
+.oqueFazemos h1 {
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.oqueFazemos-box p{
+    color: #87868A;
+    padding: 10px;
+}
+
+.sobre-pilares h2{
+    color: #FF6900;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 70px 0px 20px 0px;
+}
+
+.sobre-cards {
+    display: flex;
+}
+
+.sobre-cards-itens {
+    background-color: #F6F6F6;
+    margin: 0px 10px 0px 0px;
+    padding: 25px 25px 25px 25px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.sobre-cards-itens img {
+    width: 35px;
+}
+
+.sobre-cards-itens h2{
+    margin-top: 10px;
+    width: 148px;
+    padding: 0;
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.sobre-alloyMit {
+    display: flex;
+}
+
+.sobre-alloyMit h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.sobre-alloyMit strong{
+    color: #FF6900;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sobre-alloyMit p {
+    color: #87868A;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sobre-alloyMit img {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 540px;
+}
+
+.sobre-alloyMit-box {
+    width: 50%;
+}
+
+.sobre-alloyMit-box:first-child{
+    padding-right: 25px;
+}
+
+.sobre-alloyMit-box a {
+    font-size: 16px;
+    font-weight: 800;
+    fill: #FF6900;
+    color: #FF6900;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FF6900;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.sobre-alloyMit-box a:hover{
+    color: white;
+    background-color: #FF6900;
+    transition: ease-in 200ms;
+}
+
+.sobre-alloyMit-box p{
+    padding-bottom: 15px;
+}
+
+.sobre-colapse-graphic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sobre-colapse-graphic img {
+    width: 395px;
+    padding-right: 10px;
+}
+
+.sobre-colapse-graphic-itens {
+    width: 475px;
+    min-height: 405px;
+}
+
+.menu-sanfona li{
+    font-size: 16px;
+    font-weight: 900;
+    color: #1D252D;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.menu-sanfona li ul{
+    display:none;
+}
+.menu-sanfona li:focus ul{
+    display:block;
+}
+
+.menu-sanfona i {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.cor0 i:first-child{
+    color: #8F8B90;
+    margin-right: 10px
+}
+
+.cor1 i:first-child {
+    color: #7748D2;
+    margin-right: 10px
+}
+
+.cor2 i:first-child {
+    color: #EE2737;
+    margin-right: 10px
+}
+
+.cor3 i:first-child {
+    color: #00B5E2;
+    margin-right: 10px
+}
+
+.cor4 i:first-child {
+    color: #FC4C02;
+    margin-right: 10px
+}
+
+.cor5 i:first-child {
+    color: #F2CD00;
+    margin-right: 10px
+}
+
+.cor6 i:first-child {
+    color: #00205B;
+    margin-right: 10px
+}
+
+.cor7 i:first-child {
+    color: #30B700;
+    margin-right: 10px
+}

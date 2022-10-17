@@ -1,0 +1,52 @@
+* {
+    display: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mainSlider {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.slider h1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    margin: 25px 0 5px 0;
+}
+
+.slider-texto {
+    height: 230px;
+    margin: 30px 0px 40px 0px;
+}
+
+.slider-texto p{
+    color: white;
+    text-align: center;
+    margin: 25px auto;
+    width: 410px;
+}
+
+
+.slider .botao{
+    color: #1D252D;
+    text-decoration: none;
+    font-weight: 900;
+    line-height: 1.5;
+    background-color: #F2CD00;
+    padding: 10px 30px 10px 30px;
+    box-shadow: none;
+    border: 0px solid RGBA(0,0,0,1);
+    border-radius: 50px;
+    margin: 381px;
+}

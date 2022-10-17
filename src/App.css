@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.main-section {
+  background-image: url('/public/slider-1.png');
+  background-size: cover;
+  background-position: -6px -106px;
+  height: 566px;
+}
+
+.footer-section {
+  background-color: #1D252D;
+  padding: 50px 0 20px 0;
+}
+
+.sobre-main-section {
+  background-image: url('/public/hub-banner-sobre.png');
+  height: 700px;
+}
+
+.sobre-second-section {
+  background-image: url('/public/hub-banner-sobre2.png');
+  background-position: -280px 0px;
+  height: 570px;
+}
+
+.trabalheConosco-section {
+  background-image: url('/public/PATTERN.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+}

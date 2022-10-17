@@ -1,0 +1,35 @@
+.supportOnDemad {
+    background-image: url('/public/HUB_BANNER_SERVIÇOS_3-1.png');
+    background-size: 130%;
+    margin-bottom: 42px;
+}
+
+.supportOnDemad-box {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.supportOnDemad-texto {
+    width: 550px;
+}
+
+.supportOnDemad-texto h1 {
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+.supportOnDemad-texto p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #87868A;
+}
+
+.supportOnDemad img {
+    width: 648px;
+    height: 498px;
+
+}

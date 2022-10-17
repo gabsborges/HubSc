@@ -1,0 +1,14 @@
+.noPageComponents {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.noPageComponents-area {
+    margin: 0 auto;
+}
+
+.noPageComponents img {
+    margin: 0 auto;
+    align-items: center;
+    width: 60%;
+}

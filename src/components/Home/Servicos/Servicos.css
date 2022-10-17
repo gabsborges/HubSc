@@ -1,0 +1,47 @@
+.servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.servicos-texto {
+    width: 600px;
+}
+
+.servicos-texto h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.servicos-texto p{
+    color: #87868A;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 540px;
+}
+
+.servicos-texto a{
+    font-size: 16px;
+    font-weight: 800;
+    fill: #FF6900;
+    color: #FF6900;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #FF6900;
+    border-radius: 50px 50px 50px 50px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.servicos-texto a:hover {
+    color: white;
+    background-color: #FF6900;
+    transition: ease-in 200ms;
+}
+
+.servicos img {
+    width: 600px;
+}
