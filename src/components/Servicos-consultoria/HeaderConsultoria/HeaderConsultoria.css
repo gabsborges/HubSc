@@ -13,11 +13,6 @@ border-color: #F1F1F1;
 transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
-.ativo {
-border-top: solid 3px #F2CD00;
-background-color: transparent;
-}
-
 .menu {
 float: left;
 align-items: center;
