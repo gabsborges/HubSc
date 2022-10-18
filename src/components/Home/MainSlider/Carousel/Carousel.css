@@ -30,6 +30,10 @@
     margin: 30px 0px 40px 0px;
 }
 
+.slider-texto-alt p{
+    width: 550px !important;
+}
+
 .slider-texto p{
     color: white;
     text-align: center;

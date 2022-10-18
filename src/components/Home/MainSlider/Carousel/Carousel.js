@@ -11,7 +11,7 @@ function CarouselSlider() {
                 <Carousel.Item interval={10000}>
                     <div className='slider'>
                         <h1>Confiabilidade</h1>
-                        <div className='slider-texto'>
+                        <div className='slider-texto slider-texto-alt'>
                             <p>Somos especialistas em solucionar problemas de maneira coordenada e integrada em seus processos de negócios.
                             <br/>
                             Oferecemos alternativas seguras para apoiar nossos clientes no crescimento e evolução de seus negócios.</p>
