@@ -11,7 +11,7 @@ function FooterSobreAHub() {
                 </div>
                 <div className='footer-menu-itens'>
                 <nav>
-                        <ul className="menu">
+                        <ul className="menu-footer">
                             <li><Link to='/'>HOME</Link></li>
                             <li><a className="hover" href="#">SERVIÇOS<i className="fa-solid fa-chevron-down"></i></a>
                                 <ul className="submenu">

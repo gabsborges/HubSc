@@ -11,6 +11,49 @@
     margin-bottom: 50px;
 }
 
+.menu-footer{
+    list-style:none;
+    float:left;
+    height: 20px;
+  }
+  
+  .menu-footer li{
+    position:relative;
+    float:left;
+  }
+  
+  .menu-footer li a{
+    color: white;
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+    font-size: 12px !important;
+  }
+  
+  .menu-footer li a:hover{
+    color: #F2CD00;
+
+  }
+  
+  .menu-footer li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+    }
+  
+  .menu-footer li:hover ul, .menu-footer li.over ul{
+    display:block;
+    background-color: #1d252d;
+    border-radius: 10px;
+    border: #1d252d;
+  }
+  
+  .menu-footer li ul li{
+    display:block;
+    width: 180px;
+  }
+
 .footer-menu-empresas {
     display: flex;
     flex-direction: row;

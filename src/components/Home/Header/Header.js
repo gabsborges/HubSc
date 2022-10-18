@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 function Header() {
     return (
         <div className="header">
-            <img className="header-img" src="/Logo.png" />
+            <img className="header-img" src="/logo.png" />
             <nav>
                 <ul className="menu">
                     <li className="ativo"><Link to="/">HOME</Link></li>
