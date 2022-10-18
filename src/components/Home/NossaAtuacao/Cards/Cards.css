@@ -15,7 +15,7 @@
 .cards-itens .wrapper {
     display: flex;
     margin-top: 30px;
-    min-height: 230px;
+    min-height: 246px;
 }
 
 .cards-itens .wrapper i{
