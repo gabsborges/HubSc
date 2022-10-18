@@ -16,6 +16,10 @@
     float:left;
     height: 20px;
   }
+
+  .menu-footer ul {
+    padding: 0;
+  }
   
   .menu-footer li{
     position:relative;
