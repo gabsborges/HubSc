@@ -9,6 +9,7 @@
 
 .main-section {
   background-image: url('/public/slider-1.png');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: -6px -106px;
   height: 566px;
@@ -34,4 +35,29 @@
   background-image: url('/public/PATTERN.png');
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+@media (max-width: 1620px) {
+  .atuacao .cards-itens {
+    min-width: 360px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .atuacao .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1120px) {
+  .footer-section {
+    width: 1200px;
+  }
+  .main-section {
+    width: 1200px;
+  }
+  .sobre-hub {
+    flex-direction: column;
+  }
 }

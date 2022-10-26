@@ -112,3 +112,16 @@
     font-size: 12px;
     font-weight: 400;
 }
+
+@media (max-width: 1500px) {
+  .footer-menu {
+    flex-direction: column !important;
+  }
+  .footer-menu-empresas {
+    margin: 0 auto;
+  }
+  .footer-menu-itens {
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+  }
+}
