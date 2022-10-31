@@ -148,3 +148,17 @@
     }
 }
 
+@media (max-width: 385px) {
+    .objetivos-texto a {
+        width: 144px;
+        font-size: 9px;
+    }
+    .objetivos-texto h2 {
+        font-size: 11px;
+    }
+    .objetivos-img img {
+        width: 118px;
+        object-position: -4px -4px;
+    }
+}
+

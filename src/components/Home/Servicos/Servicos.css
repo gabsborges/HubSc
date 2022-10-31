@@ -77,3 +77,9 @@
         width: 344px;
     }
 }
+
+@media (max-width: 430px) {
+    .servicos img {
+        width: 274px;
+    }
+}
