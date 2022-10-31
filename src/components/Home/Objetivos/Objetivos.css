@@ -1,12 +1,12 @@
 .objetivos {
+    background-image: url('/public/hub-banner-home2.png');
+    background-position: center;
+    background-size: 112%;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-top: 100px;
-    background-image: url('/public/hub-banner-home2.png');
-    background-position: -128px -8px;
-    background-position: -49px 2px;
-    background-size: 112%;
     height: 315px;
 }
 
@@ -19,7 +19,6 @@
     color: white;
     font-size: 30px;
     font-weight: 800;
-    width: 530px;
 }
 
 .objetivos-texto span {
@@ -37,7 +36,7 @@
     border-width: 2px 2px 2px 2px;
     border-color: #1D252D;
     border-radius: 50px 50px 50px 50px;
-    padding: 7px 20px 7px 20px;
+    padding: 7px 20px;
     text-decoration: none;
     transition: ease-in 200ms;
 }
@@ -57,3 +56,95 @@
     height: auto;
     object-position: -27px 15px;
 }
+
+
+@media (max-width: 1025px) {
+    .objetivos-img img {
+        width: 360px;
+        height: auto;
+        object-position: -31px 55px;
+    }
+    .objetivos-texto h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 910px) {
+    .objetivos-img img {
+        width: 350px;
+        height: auto;
+        object-position: -31px 55px;
+    }
+
+}
+
+@media (max-width: 895px) {
+    .objetivos-img {
+        width: auto;
+        height: auto;
+    }
+    .objetivos-img img {
+        width: 285px;
+        height: auto;
+        object-position: -31px 6px;
+    }
+    .objetivos-texto a {
+        width: 221px;
+    }
+    .objetivos-texto h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 690px) {
+    .objetivos-img img {
+        width: 225px;
+    }
+    .objetivos-texto a {
+        width: 190px;
+        font-size: 13px;
+    }
+    .objetivos-texto h2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .objetivos-texto a {
+        width: 166px;
+        font-size: 11px;
+    }
+    .objetivos-texto h2 {
+        font-size: 15px;
+    }
+    .objetivos-img img {
+        width: 156px;
+    }
+}
+
+@media (max-width: 450px) {
+    .objetivos-texto a {
+        width: 155px;
+        font-size: 10px;
+    }
+    .objetivos-texto h2 {
+        font-size: 13px;
+    }
+    .objetivos-img img {
+        width: 156px;
+    }
+}
+
+@media (max-width: 410px) {
+    .objetivos-texto a {
+        width: 144px;
+        font-size: 9px;
+    }
+    .objetivos-texto h2 {
+        font-size: 11px;
+    }
+    .objetivos-img img {
+        width: 144px;
+    }
+}
+

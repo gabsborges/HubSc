@@ -86,3 +86,34 @@
   .header-icons a:hover{
     color: rgb(254,248,76);
   }
+
+  
+@media (max-width: 685px) {
+  .header {
+      flex-direction: column;
+  }
+  .slider h1 {
+      font-size: 44px;
+  }
+  .header img {
+      margin: 20px 0 20px 0;
+  }
+  .header-icons {
+      display: none;
+  }
+}
+
+@media (max-width: 685px) {
+  .header {
+      flex-direction: column;
+  }
+  .slider h1 {
+      font-size: 38px;
+  }
+  .header img {
+      margin: 20px 0 20px 0;
+  }
+  .header-icons {
+      display: none;
+  }
+}

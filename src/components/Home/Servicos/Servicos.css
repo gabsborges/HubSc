@@ -6,7 +6,7 @@
 }
 
 .servicos-texto {
-    width: 600px;
+    width: 80%;
 }
 
 .servicos-texto h1 {
@@ -20,7 +20,6 @@
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 20px;
-    width: 540px;
 }
 
 .servicos-texto a{
@@ -44,4 +43,37 @@
 
 .servicos img {
     width: 600px;
+}
+
+@media (max-width: 1250px) {
+    .servicos {
+        flex-direction: column;
+    }
+    .servicos img {
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .servicos img {
+        width: 486px;
+    }
+    .servicos-texto h1 {
+        font-size: 32px;
+    }
+    .servicos-texto p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 660px) {
+    .servicos img {
+        width: 410px;
+    }
+}
+
+@media (max-width: 560px) {
+    .servicos img {
+        width: 344px;
+    }
 }

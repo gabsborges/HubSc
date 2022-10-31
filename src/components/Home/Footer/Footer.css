@@ -123,5 +123,37 @@
   .footer-menu-itens {
     margin: 0 auto;
     padding: 40px 0 20px 0;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 732px) {
+  .footer-redes-e-contatos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-dados {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 20px 0;
+  }
+  .footer-dados-endereco {
+    margin: 20px 0 !important;
+}
+  .footer-copyright p {
+    text-align: center;
+    margin-top: 16px;
+  }
+  .footer-menu-itens {
+    display: none;
+  }
+}
+
+@media (max-width: 525px) {
+  .footer-menu-empresas {
+    flex-direction: column !important;
+  }
+  .footer-menu-empresas img {
+    margin-bottom: 25px;
   }
 }

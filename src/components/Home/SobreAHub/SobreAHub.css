@@ -10,7 +10,7 @@
 }
 
 .sobre-hub-text {
-    width: 600px;
+    width: 60%;
 }
 
 .sobre-hub-text h1 {
@@ -43,4 +43,34 @@
     color: white;
     background-color: #FF6900;
     transition: ease-in 200ms;
+}
+
+@media (max-width: 1121px) {
+    .sobre-hub {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-hub img {
+        width: 490px;
+    }
+    .sobre-hub-text h1 {
+        font-size: 32px;
+    }
+    .sobre-hub-text p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sobre-hub img {
+        width: 430px;
+    }
+}
+
+@media (max-width: 430px) {
+    .sobre-hub img {
+        width: 376px;
+    }
 }

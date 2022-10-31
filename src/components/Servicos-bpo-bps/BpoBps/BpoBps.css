@@ -13,7 +13,7 @@
 }
 
 .bpoBps-texto {
-    width: 550px;
+    min-width: 480px;
 }
 
 .bpoBps-texto h1 {
@@ -32,4 +32,44 @@
     width: 600px;
     height: 500px;
 
+}
+
+@media (max-width: 1250px) {
+    .bpoBps-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    .bpoBps img {
+        width: 464px;
+        height: auto;
+    }
+    .bpoBps-texto h1 {
+        font-size: 32px;
+    }
+    .bpoBps-texto p {
+        font-size: 16px;
+    }
+    .bpoBps-texto {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .cardsBpo {
+        width: 95%;
+    }
+    .bpoBps img {
+        width: 372px;
+    }
+    .cardsBpo-card {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .bpoBps img {
+        width: 294px;
+    }
 }

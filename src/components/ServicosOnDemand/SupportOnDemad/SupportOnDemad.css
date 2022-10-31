@@ -13,7 +13,7 @@
 }
 
 .supportOnDemad-texto {
-    width: 550px;
+    min-width: 432px;
 }
 
 .supportOnDemad-texto h1 {
@@ -30,6 +30,26 @@
 
 .supportOnDemad img {
     width: 648px;
-    height: 498px;
+    height: auto;
+}
 
+@media (max-width: 1250px) {
+    .supportOnDemad-box {
+        flex-direction: column;
+    }
+    .supportOnDemad-texto {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 1250px) {
+    .supportOnDemad img {
+        width: 470px;
+    }
+}
+
+@media (max-width: 500px) {
+    .supportOnDemad img {
+        width: 348px;
+    }
 }

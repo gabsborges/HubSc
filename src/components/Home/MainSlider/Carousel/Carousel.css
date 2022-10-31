@@ -10,7 +10,7 @@
 }
 
 .slider {
-    width: 900px;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -38,11 +38,12 @@
     color: white;
     text-align: center;
     margin: 25px auto;
-    width: 700px;
+    width: 80%;
 }
 
 
 .slider .botao{
+    align-items: center;
     color: #1D252D;
     text-decoration: none;
     font-weight: 900;
@@ -52,5 +53,33 @@
     box-shadow: none;
     border: 0px solid RGBA(0,0,0,1);
     border-radius: 50px;
-    margin: 381px;
+}
+
+@media (max-width: 1024px) {
+    .slider h1 {
+    font-size: 46px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .slider h1 {
+    font-size: 50px;
+    }
+    .slider-texto p{
+        color: white;
+        text-align: center;
+        margin: 25px auto;
+        font-size: 14px;
+    }
+    .slider .botao {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 595px) {
+    .slider-texto p {
+        font-size: 12px;
+    }
 }

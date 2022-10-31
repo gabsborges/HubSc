@@ -20,9 +20,6 @@ function HeaderConsultoria() {
                 </ul>
             </nav>
             <div className="header-search" >
-                <div id="divBusca">
-                    <input type="text" id="txtBusca" placeholder="PESQUISAR"/>
-                </div>
                 <div className="header-icons">
                     <a href="https://www.linkedin.com/company/hub-sc" target="blank"><i className="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/hubsc_oficial" target="blank"><i className="fa-brands fa-instagram"></i></a>

@@ -12,7 +12,7 @@
 .cardsBpo-card {
     background-color: #F0F0F0;
     padding: 30px;
-    width: 375px;
+    min-width: 375px;
     border-radius: 50px;
     margin: 5px;
 }
@@ -71,12 +71,12 @@
 
 .cardsBpo-maior-card {
     display: flex;
+    min-width: 1000px;
 }
 
 .cardsBpo-maior-sec {
     display: flex;
     flex-direction: row;
-    width: 510px;
 }
 
 .cardsBpo-maior-sec h1{
@@ -88,4 +88,24 @@
 
 .cardsBpo-maior-sec .space{
     height: 25px;
+}
+
+@media (max-width: 1220px) {
+    .cardsBpo-section {
+        flex-direction: column;
+    }
+    .cardsBpo-card {
+        background-color: #F0F0F0;
+        padding: 30px;
+        min-width: 375px;
+        border-radius: 50px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 1335px) {
+    .cardsBpo-maior-card {
+        flex-direction: column;
+        min-width: auto;
+    }
 }

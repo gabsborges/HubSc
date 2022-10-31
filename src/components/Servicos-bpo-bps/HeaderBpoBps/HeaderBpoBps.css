@@ -84,7 +84,8 @@
 }
 
 .contato-header-img {
-    width: 325px;
+  width: 220px;
+  height: 42px;
 }
 
 .header-search {
@@ -122,3 +123,19 @@
     font-size: 18px;
     margin: 10px;
   }
+
+  
+@media (max-width: 685px) {
+  .header {
+      flex-direction: column;
+  }
+  .slider h1 {
+      font-size: 44px;
+  }
+  .header img {
+      margin: 20px 0 20px 0;
+  }
+  .header-icons {
+      display: none;
+  }
+}

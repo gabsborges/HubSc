@@ -12,7 +12,7 @@
 }
 
 .consultoria-texto {
-    width: 550px;
+    min-width: 432px;
 }
 
 .consultoria-texto h1 {
@@ -29,6 +29,32 @@
 
 .consultoria img {
     width: 648px;
-    height: 483px;
+    height: auto;
+}
 
+@media (max-width: 1240px) {
+    .consultoria-container {
+        flex-direction: column;
+    }
+    .consultoria-texto {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .consultoria img {
+        width: 470px;
+    }
+}
+
+@media (max-width: 500px) {
+    .consultoria img {
+        width: 388px;
+    }
+}
+
+@media (max-width: 400px) {
+    .consultoria img {
+        width: 310px;
+    }
 }

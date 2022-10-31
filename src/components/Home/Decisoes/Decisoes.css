@@ -4,14 +4,13 @@
     justify-content: space-around;
     padding: 70px 0;
     align-items: center;
-    justify-content: center;
 }
 
 .decisoes h2{
     color: white;
     font-size: 30px;
     font-weight: 800;
-    width: 300px;
+    width: 245px;
 }
 
 .decisoes span {
@@ -22,7 +21,7 @@
     color: white;
     font-size: 18px;
     font-weight: 400;
-    width: 600px;
+    width: 584px;
 }
 
 .decisoes a {
@@ -36,7 +35,6 @@
     border-color: #1D252D;
     border-radius: 50px 50px 50px 50px;
     padding: 7px 20px 7px 20px;
-    margin: 20px;
     text-decoration: none;
     transition: ease-in 200ms;
 }
@@ -45,3 +43,20 @@
     transform: scale(0.9);
     color: white;
 }
+
+@media (max-width: 1140px) {
+    .decisoes p {
+        width: 470px;
+    }
+}
+
+@media (max-width: 970px) {
+    .decisoes {
+        flex-direction: column;
+    }
+    .decisoes p {
+        width: 80%;
+        margin: 30px ;
+    }
+}
+

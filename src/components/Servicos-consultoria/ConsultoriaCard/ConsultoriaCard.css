@@ -8,6 +8,7 @@
     padding: 30px;
     border-radius: 50px;
     margin: 25px 0 90px 0;
+    min-width: 886px;
 }
 
 .consultoriaCard-card h1 {
@@ -34,4 +35,14 @@
 .consultoriaCard-card img {
     padding: 10px 45px;
     width: 122px;
+}
+
+@media (max-width: 1040px) {
+    .consultoriaCard-card {
+        min-width: auto;
+    }
+    .consultoriaCard-card img {
+        padding: 10px 10px;
+        width: 53px;
+    }
 }

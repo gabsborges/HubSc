@@ -35,3 +35,13 @@
     padding: 10px 30px;
     width: 86px;
 }
+
+@media (max-width: 995px) {
+    .cardOnDemad {
+        width: 95%;
+    }
+    .cardOnDemad-card img {
+        padding: 10px 10px;
+        width: 53px;
+    }
+}
