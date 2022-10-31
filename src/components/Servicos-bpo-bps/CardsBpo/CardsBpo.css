@@ -94,6 +94,9 @@
     .cardsBpo-section {
         flex-direction: column;
     }
+    .cardsBpo {
+        width: 95%;
+    }
     .cardsBpo-card {
         background-color: #F0F0F0;
         padding: 30px;
