@@ -52,6 +52,9 @@
     .servicos img {
         margin: 30px 0;
     }
+    .servicos-texto {
+        width: 80%;
+    }
 }
 
 @media (max-width: 768px) {

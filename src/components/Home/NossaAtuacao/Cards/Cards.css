@@ -65,3 +65,20 @@
         height: 308px;
     }
 }
+
+@media (max-width: 380px) {
+    .cards-itens {
+        width: 300px;
+        height: 270px;
+    }
+    .cards-itens .wrapper {
+        min-height: 198px;
+    }
+    .cards-itens .wrapper h1 {
+        font-size: 20px;
+    }
+    .cards-itens .wrapper p {
+        width: 210px;
+        font-size: 14px;
+    }
+}
