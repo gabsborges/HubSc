@@ -122,7 +122,6 @@
 
 .sobre-colapse-graphic-itens {
     width: 475px;
-    min-height: 405px;
 }
 
 .menu-sanfona li{
@@ -183,4 +182,73 @@
 .cor7 i:first-child {
     color: #30B700;
     margin-right: 10px
+}
+
+@media (max-width: 1250px) {
+    .oqueFazemos-box-texto {
+        flex-direction: column;
+    }
+    .oqueFazemos-box {
+        width: auto;
+    }
+    .sobre-cards {
+        flex-direction: column;
+    }
+    .sobre-grafico img {
+        width: 486px;
+    }
+    .sobre-cards-itens {
+        width: 200px;
+        margin: 10px 0;
+        border: 1px solid black;
+    }
+    .sobre-alloyMit {
+        flex-direction: column;
+        width: 95%;
+    }
+    .sobre-alloyMit img {
+        width: 468px;
+    }
+    .sobre-alloyMit-box {
+        width: 100%;
+    }
+    .sobre-colapse-graphic {
+        flex-direction: column;
+    }
+    .sobre-colapse-graphic-itens {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 769px) {
+    .sobre-sobre img {
+        width: 446px;
+    }
+    .sobre-grafico img {
+        width: 442px;
+    }
+    .sobre-colapse-graphic img {
+        width: 320px;
+    }
+    .menu-sanfona li {
+        font-size: 14px;
+    }
+    .sobre-alloyMit img {
+        width: 344px;
+    }
+    .sobre-colapse-graphic-itens {
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .sobre-alloyMit img {
+        width: 308px;
+    }
+    .sobre-colapse-graphic img {
+        width: 260px;
+    }
+    .menu-sanfona li {
+        font-size: 12px;
+    }
 }

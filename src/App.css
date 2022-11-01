@@ -26,13 +26,13 @@ ul, li {
 
 .sobre-main-section {
   background-image: url('/public/hub-banner-sobre.png');
-  height: 700px;
+
 }
 
 .sobre-second-section {
   background-image: url('/public/hub-banner-sobre2.png');
   background-position: -280px 0px;
-  height: 570px;
+
 }
 
 .trabalheConosco-section {

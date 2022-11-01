@@ -8,7 +8,7 @@
 }
 
 .sobre-sobre img {
-    width: 570px;
+    width: 514px;
     height: auto;
     padding-top: 60px;
     margin-right: 20px;
@@ -16,6 +16,7 @@
 
 .sobre-sobre-box {
     padding: 80px 0 100px 0;
+    min-width: 550px;
 }
 
 .sobre-sobre-box h1{
@@ -35,4 +36,35 @@
     font-size: 18px;
     font-weight: 400;
     color: #87868A;
+}
+
+@media (max-width: 1250px) {
+    .sobre-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-sobre-box {
+        padding: 23px 0 100px 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .sobre-sobre img {
+        width: 434px;
+    }
+    .sobreSobre {
+        width: 75%;
+    }
+    .sobre-sobre-box {
+        min-width: auto;
+    }
+    .sobre-grafico-box-texto {
+        min-width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .sobre-sobre img {
+        width: 334px;
+    }
 }

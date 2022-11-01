@@ -26,6 +26,7 @@
 
 .sobre-grafico-box-texto {
     padding-top: 40px;
+    min-width: 490px;
 }
 
 .sobre-grafico-box-texto strong{
@@ -36,4 +37,32 @@
     font-size: 18px;
     font-weight: 400;
     color: white;
+}
+
+@media (max-width: 1250px) {
+    .sobre-grafico {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-grafico-box {
+        padding: 0;
+    }
+}
+
+@media (max-width: 769px) {
+    .sobre-grafico-box-texto {
+        min-width: auto;
+    }
+    .sobre-grafico img {
+        width: 474px;
+    }
+    .sobre-grafico img {
+        width: 368px;
+    }
+}
+
+@media (max-width: 425px) {
+    .sobre-grafico img {
+        width: 314px;
+    }
 }
