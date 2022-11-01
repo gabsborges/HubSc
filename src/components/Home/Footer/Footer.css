@@ -127,6 +127,15 @@
   }
 }
 
+@media (max-width: 905px) {
+  .menu-footer  {
+    height: 175px;
+}
+  .menu-footer li {
+    float: none;
+}
+}
+
 @media (max-width: 732px) {
   .footer-redes-e-contatos {
     flex-direction: column;
@@ -144,9 +153,7 @@
     text-align: center;
     margin-top: 16px;
   }
-  .footer-menu-itens {
-    display: none;
-  }
+
 }
 
 @media (max-width: 525px) {
