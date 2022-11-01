@@ -13,7 +13,7 @@ function FooterSobreAHub() {
                 <nav>
                         <ul className="menu-footer">
                             <li><Link to='/'>HOME</Link></li>
-                            <li><a className="hover" href="#">SERVIÇOS<i className="fa-solid fa-chevron-down"></i></a>
+                            <li><a className="hover" href="">SERVIÇOS<i className="fa-solid fa-chevron-down"></i></a>
                                 <ul className="submenu">
                                     <li><Link to='/servicos-bpo-bps'>BPO/BPS</Link></li>
                                     <li><Link to='/servicos-consultoria'>CONSULTORIA</Link></li>
