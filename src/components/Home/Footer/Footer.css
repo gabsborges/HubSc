@@ -134,6 +134,23 @@
   .menu-footer li {
     float: none;
 }
+.footer-menu-itens {
+  margin: 0;
+}
+.menu-footer li ul {
+  top: -10px;
+  left: 96px;
+}
+.chevron-down:before {
+  content: "";
+  display: none;
+}
+.menu-footer li:hover ul, .menu-footer li.over ul {
+  display: block;
+  background-color: #1d252d;
+  border-radius: 10px;
+  border-bottom: white;
+}
 }
 
 @media (max-width: 732px) {
