@@ -4,11 +4,14 @@
 }
 
 .noPageComponents-area {
-    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .noPageComponents img {
-    margin: 0 auto;
-    align-items: center;
     width: 60%;
 }
