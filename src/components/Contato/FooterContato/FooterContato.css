@@ -16,7 +16,7 @@
     flex-direction: row;
 }
 
-.footer-menu-empresas img:first-child{
+.footer-menu-empresas img:first-child {
     margin-right: 20px;
 }
 
@@ -59,7 +59,7 @@
     padding: 5px;
 }
 
-.footer-copyright p{
+.footer-copyright p {
     margin-top: 90px;
     color: #87868A;
     font-size: 12px;

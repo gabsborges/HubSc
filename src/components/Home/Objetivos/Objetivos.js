@@ -9,7 +9,7 @@ function Objetivos() {
                 <Link to="/contato">Entrar em contato agora</Link>
             </div>
             <div className='objetivos-img'>
-            <img src='/hub-banner-light.png'/>
+            <img src='/hub-banner-light.png' alt='Hub Banner'/>
             </div>
         </div>
     )

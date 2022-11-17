@@ -27,6 +27,17 @@
   color: #F2CD00;
 }
 
+.menu li span{
+  color: white;
+  text-decoration:none; 
+  padding:10px 10px; 
+  display:block;
+}
+
+.menu li span:hover{
+  color: #F2CD00;
+}
+
 .menu li  ul{
   position:absolute;
   top:25px;

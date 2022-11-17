@@ -7,19 +7,19 @@
 }
 
 .header-contato {
-border-style: solid;
-border-width: 0px 0px 2px 0px;
-border-color: #F1F1F1;
-transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: #F1F1F1;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
 .menu {
-float: left;
-align-items: center;
-margin-left: 60px;
+  float: left;
+  align-items: center;
+  margin-left: 60px;
 }
 
-.menu ul{
+.menu ul {
   display: flex;
   padding: 0;
   margin: 5px;
@@ -31,55 +31,56 @@ margin-left: 60px;
   padding: 0px 0px 0px 0px;
   font-size: 12px;
   font-weight: 700;
-  float:left;
+  float: left;
   list-style: none;
 }
 
 .menu-preto li a {
-color: black;
+  color: black;
 }
 
-.menu li a{
-text-decoration:none; 
-padding:10px 10px; 
-display:block;
+.menu li a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
 }
 
 .fa-chevron-down {
-font-size: 10px;
-margin-left: 5px;
-font-weight: bold;
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: bold;
 }
 
-.menu li .hover:hover{
-border-top: solid 3px #F2CD00;
-color: #F2CD00;
+.menu li .hover:hover {
+  border-top: solid 3px #F2CD00;
+  color: #F2CD00;
 }
 
-.menu li  ul{
-position:absolute;
-left:0;
-background-color:transparent;
-display:none;
+.menu li ul {
+  position: absolute;
+  left: 0;
+  background-color: transparent;
+  display: none;
 }
 
-.menu li:hover ul, .menu li.over ul {
-display:block;
-background-color: #1d252d;
-border-radius: 10px;
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+  background-color: #1d252d;
+  border-radius: 10px;
 }
 
-.menu li ul li{
-color: #F2CD00;
-display:block;
-width: 180px;
+.menu li ul li {
+  color: #F2CD00;
+  display: block;
+  width: 180px;
 }
 
-.menu li ul li:hover{
-border: none;
+.menu li ul li:hover {
+  border: none;
 }
 
-.menu-preto ul li a{
+.menu-preto ul li a {
   color: white;
 }
 
@@ -93,18 +94,18 @@ border: none;
   justify-content: flex-end;
 }
 
-#divBusca{
-  background-color:transparent;
-  border-bottom:solid 2px #F2CD00;
-  width:196px;
+#divBusca {
+  background-color: transparent;
+  border-bottom: solid 2px #F2CD00;
+  width: 196px;
   margin-right: 10px;
 }
 
-#txtBusca{
-  background-color:transparent;
-  padding:0 0 8px 10px;
-  font-size:18px;
-  border:none;
+#txtBusca {
+  background-color: transparent;
+  padding: 0 0 8px 10px;
+  font-size: 18px;
+  border: none;
   color: #F2CD00;
 }
 
@@ -114,11 +115,11 @@ border: none;
   font-weight: 700;
 }
 
-#divBusca img{
-  float:left;
+#divBusca img {
+  float: left;
 }
 
-.header-icons a{
+.header-icons a {
   color: #F2CD00;
   font-size: 18px;
   margin: 10px;

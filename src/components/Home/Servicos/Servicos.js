@@ -11,7 +11,7 @@ function Servicos() {
                 <p>Oferecemos soluções em todas as atividades de suporte, da contabilidade à administração financeira e de pessoal, com serviços completamente integrados a  outras áreas de negócios da HUB.</p>
                 <Link to="/servicos-bpo-bps">Saiba mais</Link>
             </div>
-            <img src="/hub-colmeia.svg"/>
+            <img src="/hub-colmeia.svg" alt='Hub Colmeia'/>
         </div>
     )
 }

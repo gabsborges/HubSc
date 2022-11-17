@@ -1,19 +1,19 @@
 import './FooterCarreira.css'
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function FooterCarreira() {
     return (
         <div className='carreira-footer'>
             <div className='footer-menu'>
                 <div className='footer-menu-empresas'>
-                    <Link to='/'><img src='/logo.png' /></Link>
-                    <a href='https://alloymit.com/'><img src='/selo-alloypng.png' /></a>
+                    <Link to='/'><img src='/logo.png' alt='Imagem da Logo' /></Link>
+                    <a href='https://alloymit.com/'><img src='/selo-alloypng.png' alt='Imagem da AlloyMit' /></a>
                 </div>
                 <div className='footer-menu-itens'>
-                <nav>
+                    <nav>
                         <ul className="menu-footer">
                             <li><Link to='/'>HOME</Link></li>
-                            <li><a className="hover" href="">SERVIÇOS<i className="fa-solid fa-chevron-down chevron-down"></i><i class="fa-solid fa-chevron-right"></i></a>
+                            <li><span className="hover">SERVIÇOS<i className="fa-solid fa-chevron-down chevron-down"></i><i className="fa-solid fa-chevron-right"></i></span>
                                 <ul className="submenu">
                                     <li><Link to='/servicos-bpo-bps'>BPO/BPS</Link></li>
                                     <li><Link to='/servicos-consultoria'>CONSULTORIA</Link></li>
@@ -34,9 +34,9 @@ function FooterCarreira() {
                     <div className='footer-dados-endereco'>
                         <i className="fa-solid fa-location-dot"></i>
                         <div className='footer-dados-endereco-texto'>
-                        <p>ED.ALLOYMIT</p>
-                        <p>RUA BARTOLOMEU DE GUSMÃO, 290</p>
-                        <p>VILA MARIANA/SP – CEP 04111-020</p>
+                            <p>ED.ALLOYMIT</p>
+                            <p>RUA BARTOLOMEU DE GUSMÃO, 290</p>
+                            <p>VILA MARIANA/SP – CEP 04111-020</p>
                         </div>
                     </div>
                     <div className='footer-dados-contatos'>
@@ -46,9 +46,9 @@ function FooterCarreira() {
                     </div>
                 </div>
                 <div className='footer-dados-icones'>
-                <a href="https://www.linkedin.com/company/hub-sc" target="blank"><i className="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/hubsc_oficial" target="blank"><i className="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.facebook.com/hubservicoscompartilhados" target="blank"><i className="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/hub-sc" target="_blank" rel='noreferrer'><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hubsc_oficial" target="_blank" rel='noreferrer'><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/hubservicoscompartilhados" target="_blank" rel='noreferrer'><i className="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
             <div className='footer-copyright'>

@@ -9,7 +9,7 @@
     width: 570;
 }
 
-.orcamento-box-texto h1{
+.orcamento-box-texto h1 {
     font-size: 36px;
     font-weight: 800;
     width: 570px;
@@ -83,7 +83,7 @@
     margin: 2px;
 }
 
-.orcamento-form-area-submit button{
+.orcamento-form-area-submit button {
     padding: 10px 40px;
     margin: 15px 0 5px;
     background-color: rgba(242, 205, 0, 1);
@@ -102,7 +102,7 @@
 }
 
 .text-form-area {
-    border:  1px solid #666 !important;
+    border: 1px solid #666 !important;
     padding: 10px 20px 10px 10px !important;
 }
 
@@ -115,16 +115,20 @@
         flex-direction: column;
         align-items: center;
     }
+
     .orcamento-form-box {
         margin-top: 50px;
         max-width: 450px;
     }
+
     .orcamento-box {
         width: auto;
     }
+
     .orcamento-box-texto h1 {
         width: auto;
     }
+
     .orcamento-box-texto p {
         width: auto;
     }
@@ -134,21 +138,27 @@
     .orcamento-box-texto h1 {
         font-size: 28px;
     }
+
     .orcamento-box-texto p {
         font-size: 16px;
     }
+
     .orcamento-box-dados p {
         font-size: 14px;
     }
+
     .orcamento-box-dados i {
         font-size: 18px;
     }
+
     .orcamento-form-area {
         min-width: 200px;
     }
+
     .orcamento-form-area label {
         font-size: 14px;
     }
+
     .orcamento-form-area-submit button {
         padding: 10px 18px;
     }

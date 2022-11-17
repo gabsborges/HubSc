@@ -39,6 +39,19 @@
 
   }
   
+  .menu-footer li span{
+    color: white;
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+    font-size: 12px !important;
+  }
+  
+  .menu-footer li span:hover{
+    color: #F2CD00;
+
+  }
+  
   .menu-footer li  ul{
     position:absolute;
     top:25px;
@@ -113,6 +126,11 @@
     font-weight: 400;
 }
 
+.fa-chevron-right {
+  content: "";
+  display: none !important;
+}
+
 @media (max-width: 1500px) {
   .footer-menu {
     flex-direction: column !important;
@@ -140,6 +158,10 @@
 .menu-footer li ul {
   top: -10px;
   left: 96px;
+}
+.fa-chevron-right {
+  content: "";
+  display: inline-block !important;
 }
 .chevron-down:before {
   content: "";

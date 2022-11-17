@@ -1,14 +1,14 @@
 import './HeaderCarreira.css'
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function HeaderCarreira() {
     return (
         <div className='header header-carreira'>
-            <img className="contato-header-img" src="/hub-logo-preta.svg" />
+            <Link to='/'><img className="contato-header-img" src="/hub-logo-preta.svg" alt='Imagem Hub Logo Preta' /></Link>
             <nav>
                 <ul className="menu menu-preto">
                     <li><Link to="/">HOME</Link></li>
-                    <li><a href="#">SERVIÇOS<i className="fa-solid fa-chevron-down"></i></a>
+                    <li><span>SERVIÇOS<i className="fa-solid fa-chevron-down"></i></span>
                         <ul>
                             <li><Link to="/servicos-bpo-bps">BPO/BPS</Link></li>
                             <li><Link to="/servicos-consultoria">CONSULTORIA</Link></li>
@@ -21,10 +21,10 @@ function HeaderCarreira() {
             </nav>
             <div className="header-search" >
                 <div className="header-icons">
-                    <a href="https://www.linkedin.com/company/hub-sc" target="blank"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/hubsc_oficial" target="blank"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/hubservicoscompartilhados" target="blank"><i className="fa-brands fa-square-facebook"></i></a>
-                </div> 
+                    <a href="https://www.linkedin.com/company/hub-sc" target="_blank" rel='noreferrer'><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hubsc_oficial" target="_blank" rel='noreferrer'><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/hubservicoscompartilhados" target="_blank" rel='noreferrer'><i className="fa-brands fa-square-facebook"></i></a>
+                </div>
             </div>
         </div>
     )

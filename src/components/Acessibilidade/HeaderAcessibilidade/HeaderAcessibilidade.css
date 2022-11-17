@@ -45,6 +45,16 @@
   display:block;
   }
   
+  .menu-preto li span {
+  color: black;
+  }
+  
+  .menu li span{
+  text-decoration:none; 
+  padding:10px 10px; 
+  display:block;
+  }
+  
   .fa-chevron-down {
   font-size: 10px;
   margin-left: 5px;

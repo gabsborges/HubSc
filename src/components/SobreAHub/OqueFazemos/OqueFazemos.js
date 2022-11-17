@@ -21,23 +21,23 @@ function OqueFazemos() {
                 <h2>Abaixo os 5 pilares que estamos estruturados, a saber:</h2>
                 <div className='sobre-cards'>
                     <div className='sobre-cards-itens'>
-                        <img src='./Objeto-Inteligente-de-Vetor.png'/>
+                        <img src='./Objeto-Inteligente-de-Vetor.png' alt='Objeto'/>
                         <h2>Integridade acima de tudo</h2>
                     </div>
                     <div className='sobre-cards-itens'>
-                        <img src='./Objeto-Inteligente-de-Vetor2.png'/>
+                        <img src='./Objeto-Inteligente-de-Vetor2.png' alt='Objeto'/>
                         <h2>Fazemos a diferença</h2>
                     </div>
                     <div className='sobre-cards-itens'>
-                        <img src='./Objeto-Inteligente-de-Vetor3.png'/>
+                        <img src='./Objeto-Inteligente-de-Vetor3.png' alt='Objeto'/>
                         <h2>Cuidado com as pessoas</h2>
                     </div>
                     <div className='sobre-cards-itens'>
-                        <img src='./Objeto-Inteligente-de-Vetor4.png'/>
+                        <img src='./Objeto-Inteligente-de-Vetor4.png' alt='Objeto'/>
                         <h2>Somos uma equipe</h2>
                     </div>
                     <div className='sobre-cards-itens'>
-                        <img src='./Objeto-Inteligente-de-Vetor5.png'/>
+                        <img src='./Objeto-Inteligente-de-Vetor5.png' alt='Objeto'/>
                         <h2>Nos desafiamos constantemente</h2>
                     </div>
                 </div>
@@ -49,51 +49,51 @@ function OqueFazemos() {
                     <p>A inovação e a tecnologia assumem papel estratégico no posicionamento competitivo do Grupo AlloyMit e traduz-se num exercício constante de concessão, experimentação, implementação de novas ideias e soluções que permitem o desenvolvimento de negócios competitivos, garantindo a criação de valor para todos os stakeholders.</p>
                 </div>
                 <div className='sobre-alloyMit-box'>
-                    <img src='./HUB_LOGO_ALLOYMIT_Prancheta-1.svg'/>
+                    <img src='./HUB_LOGO_ALLOYMIT_Prancheta-1.svg' alt='Objeto'/>
                     <p>Atuando multissetorialmente, o Grupo dispõe de uma carteira de participações / investimentos composta por empresas em diferentes setores da economia e em diversos estágios de desenvolvimento, mas que possuem sinergia e estreita relação com as atividades fim da companhia. Focada na gestão fundamentalista de investimentos, o Grupo AlloyMit é uma gestora de recursos independente e detém uma equipe bem estruturada com histórico de sucesso no mercado, além de uma refinada sinergia entre suas áreas de atuação, fator que contribui para o intercâmbio de conhecimentos e, consequentemente, para o sucesso nas operações que estrutura.</p>
                     <Link to='/sobre-a-hub'>Saiba mais</Link>
                 </div>
             </div>
             <div className='sobre-colapse-graphic'>
-                <img src='./HUB_VERTICAIS_Prancheta-1.svg'/>
+                <img src='./HUB_VERTICAIS_Prancheta-1.svg' alt='Objeto'/>
                 <div className='sobre-colapse-graphic-itens'>
                     <ul className="menu-sanfona">
-                        <li className='cor0' tabindex="0"><i className="fa-solid fa-circle"></i>ENGENHARIA<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor0' tabIndex="0"><i className="fa-solid fa-circle"></i>ENGENHARIA<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Construção, incorporação e vendas</li>
                             </ul>
                         </li>
-                        <li className='cor1' tabindex="1"><i className="fa-solid fa-circle"></i>FINANCE<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor1' tabIndex="1"><i className="fa-solid fa-circle"></i>FINANCE<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Open banking, serviços e seguros</li>
                             </ul>
                         </li>
-                        <li className='cor2' tabindex="2"><i className="fa-solid fa-circle"></i>INVESTIMENTO<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor2' tabIndex="2"><i className="fa-solid fa-circle"></i>INVESTIMENTO<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Mesa proprietária de investimento e programas educacionais</li>
                             </ul>
                         </li>
-                        <li className='cor3' tabindex="3"><i className="fa-solid fa-circle"></i>FRANQUIAS<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor3' tabIndex="3"><i className="fa-solid fa-circle"></i>FRANQUIAS<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Gestão e expansão</li>
                             </ul>
                         </li>
-                        <li className='cor4' tabindex="4"><i className="fa-solid fa-circle"></i>TERCEIRIZAÇÃO<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor4' tabIndex="4"><i className="fa-solid fa-circle"></i>TERCEIRIZAÇÃO<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>BPS, BPO e Consultoria especializada</li>
                             </ul>
                         </li>
-                        <li className='cor5' tabindex="5"><i className="fa-solid fa-circle"></i>TELECOM<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor5' tabIndex="5"><i className="fa-solid fa-circle"></i>TELECOM<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Chips, rede e aplicativo</li>
                             </ul>
                         </li>
-                        <li className='cor6' tabindex="6"><i className="fa-solid fa-circle"></i>CONSULTORIA, IMPOSTOS E AUDITORIA<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor6' tabIndex="6"><i className="fa-solid fa-circle"></i>CONSULTORIA, IMPOSTOS E AUDITORIA<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Consultoria empresarial impostos, M&A e Due Diligence</li>
                             </ul>
                         </li>
-                        <li className='cor7' tabindex="7"><i className="fa-solid fa-circle"></i>SOCIAL<i className="fa-solid fa-chevron-down"></i>
+                        <li className='cor7' tabIndex="7"><i className="fa-solid fa-circle"></i>SOCIAL<i className="fa-solid fa-chevron-down"></i>
                             <ul>
                                 <li>Transformação de vidas</li>
                             </ul>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function SobreAHub() {
     return (
         < div className='sobre-hub'>
-            <img src="/hub_banner.png"/>
+            <img src="/hub_banner.png" alt='Hub Banner'/>
             <div className='sobre-hub-text'>
                 <h1>Sobre a HUB</h1>
                 <p>Somos uma empresa de consultoria especializada para ajudarmos nossos clientes a resolver seus problemas mais complexos em seus processos de negócios, de maneira coordenada e integrada.</p>

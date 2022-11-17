@@ -2,7 +2,7 @@ import React from 'react';
 import './Carousel.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function CarouselSlider() {
     return (
