@@ -13,8 +13,8 @@ function Orcamento() {
 
                         <div className='orcamento-box-dados-contatos'>
                             <p><i className="fa-solid fa-phone"></i>(11) 3257-1717</p>
-                            <p><i className="fa-solid fa-phone"></i>(11) 91192-5479</p>
-                            <p><i className="fa-solid fa-envelope"></i>SAC@HUBSC.COM.BR</p>
+                            <p><i className="fa-solid fa-phone"></i>(11) 95910-2140</p>
+                            <p><i className="fa-solid fa-envelope"></i>contato@hubsc.com.br</p>
                         </div>
                         <div className='orcamento-box-dados-endereco'>
                             <i className="fa-solid fa-location-dot"></i>

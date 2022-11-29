@@ -41,8 +41,8 @@ function FooterContato() {
                     </div>
                     <div className='footer-dados-contatos'>
                         <p><i className="fa-solid fa-phone"></i>(11) 3257-1717</p>
-                        <p><i className="fa-solid fa-phone"></i>(11) 91192-5479</p>
-                        <p><i className="fa-solid fa-envelope"></i>SAC@HUBSC.COM.BR</p>
+                        <p><i className="fa-solid fa-phone"></i>(11) 95910-2140</p>
+                        <p><i className="fa-solid fa-envelope"></i>contato@hubsc.com.br</p>
                     </div>
                 </div>
                 <div className='footer-dados-icones'>

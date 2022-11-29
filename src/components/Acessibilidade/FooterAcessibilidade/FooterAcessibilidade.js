@@ -46,9 +46,9 @@ function FooterAcessibilidade() {
                     </div>
                 </div>
                 <div className='footer-dados-icones'>
-                    <a href="https://www.linkedin.com/company/hub-sc" target="blank"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/hubsc_oficial" target="blank"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/hubservicoscompartilhados" target="blank"><i className="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/company/hub-sc" target="_blank" rel='noreferrer'><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/hubsc_oficial" target="_blank" rel='noreferrer'><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/hubservicoscompartilhados" target="_blank" rel='noreferrer'><i className="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
             <div className='footer-copyright'>
