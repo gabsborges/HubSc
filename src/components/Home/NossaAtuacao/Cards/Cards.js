@@ -29,7 +29,7 @@ function Cards() {
                     <i className="fa-regular fa-lightbulb"></i>
                     <div className='cards-itens-texto'>
                         <h1>Business Support On Demand</h1>
-                        <p>O dinamismo dos ambientes de negócios corporativos, necessitam de controles internos apurados, para acompanhar a complexidade do sistema tributário vigente no Brasil.</p>
+                        <p>O dinamismo dos ambientes de negócios corporativos necessitam de controles internos apurados para acompanhar a complexidade do sistema tributário vigente no Brasil.</p>
                     </div>
                 </div>
                 <Link to="/servicos-on-demand"><i className="fa-solid fa-circle-arrow-right"></i>Saiba mais</Link>

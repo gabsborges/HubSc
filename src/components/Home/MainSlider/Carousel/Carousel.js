@@ -21,7 +21,7 @@ function CarouselSlider() {
                 </Carousel.Item>
                 <Carousel.Item interval={10000}>
                     <div className='slider'>
-                        <h1>Segurança e Alta tecnologia</h1>
+                        <h1>Segurança e Alta Tecnologia</h1>
                         <div className='slider-texto'>
                             <p>Utilizamos a tecnologia em prol dos seus negócios, prevenindo possíveis surpresas desagradáveis e alocando os melhores recursos para cuidar das demandas específicas de nossos clientes.
                                 <br/>
@@ -36,7 +36,7 @@ function CarouselSlider() {
                         <div className='slider-texto'>
                             <p>Diversificamos nossa equipe com o intuito de gerar soluções criativas e eficientes, concebidas através dos diferentes pontos de vista percebidos pelos profissionais altamente capacitados da HUB.
                             <br/>
-                            Nossa equipe é altamente capacitada e se mantem atualizado em todas as áreas de atuação, gerando insights intuitivos e soluções eficientes para a empresa.</p>
+                            Nossa equipe é altamente capacitada e se mantém atualizada em todas as áreas de atuação, gerando insights intuitivos e soluções eficientes para a empresa.</p>
                             <Link className='botao' to="/servicos-on-demand">Saiba mais</Link>
                         </div>
                     </div>

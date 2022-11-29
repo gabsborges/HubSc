@@ -7,9 +7,9 @@ function SobreAHub() {
             <img src="/hub_banner.png" alt='Hub Banner'/>
             <div className='sobre-hub-text'>
                 <h1>Sobre a HUB</h1>
-                <p>Somos uma empresa de consultoria especializada para ajudarmos nossos clientes a resolver seus problemas mais complexos em seus processos de negócios, de maneira coordenada e integrada.</p>
+                <p>Somos uma empresa de consultoria especializada que tem como objetivo auxiliar empresas a resolver seus problemas mais complexos em seus processos de negócios, de maneira coordenada e integrada.</p>
 
-                <p>Independentemente da função ou do setor, nosso objetivo é ajudar a organização a melhorar as operações e o desempenho no mercado, com uma transição suave e rápido retorno do investimento, para atingir estabilidade no longo prazo, previsão e melhoria contínua, potenciais pelos quais os provedores de serviços de outsourcing são conhecidos.</p>
+                <p>Independentemente da função ou do setor, ajudamos a organização a melhorar as operações e o desempenho no mercado, com uma transição suave e rápido retorno do investimento, para atingir estabilidade no longo prazo, previsão e melhoria contínua, potenciais pelos quais os provedores de serviços de outsourcing são conhecidos.</p>
                 <Link to="/sobre-a-hub">Saiba mais</Link>
             </div>
         </div>
